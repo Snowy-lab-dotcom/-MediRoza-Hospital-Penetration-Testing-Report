@@ -1,3 +1,5 @@
+<div align=center>
+       
 # 🔐 MediRoza Hospital — Penetration Testing Report
 
 ![Cybersecurity](https://img.shields.io/badge/Field-Cybersecurity-red)
@@ -5,7 +7,10 @@
 ![Environment](https://img.shields.io/badge/Environment-Authorized-green)
 ![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-lightgrey)
 
+</div>
+
 ---
+
 
 ## 📌 Assessment Information
 
@@ -144,18 +149,20 @@ Nmap identified several exposed services and confirmed that HTTP/HTTPS services 
 
 ### Evidence — Network Reconnaissance
 
+**Nmap** — Used to identify open ports and exposed network services that could provide potential entry points into the target.
+
 <img width="482" height="62" alt="nmap for entry points" src="https://github.com/user-attachments/assets/7182ea48-ec64-47db-9c6f-ed3484629dd4" /> 
 
 <br/>
 
 Further web reconnaissance was performed using tools including `nslookup`, `DNSRecon`, `WhatWeb`, `cURL`, and `WAFW00F`.
 
-nslookup
+**nslookup** — Used to resolve the target domain name to its associated IP address and verify DNS information.
 
 <img width="405" height="149" alt="nslookup" src="https://github.com/user-attachments/assets/cec08684-9630-4cff-b689-6bdb31c66516" />
  <br/>
  
-DNSRecon
+**DNSRecon** — Used to enumerate DNS records such as nameservers, mail servers, IP addresses, SPF, and DMARC information.
 
 <img width="956" height="772" alt="dnsrecon" src="https://github.com/user-attachments/assets/4b2ae02c-fa1e-4569-8608-54b4a1f70aa5" />
  <br/>
@@ -163,33 +170,34 @@ DNSRecon
 These activities helped establish the target's DNS configuration, HTTP behaviour, server technologies, and available web attack surface.
 
 ### Evidence — Web Reconnaissance
-whois 
+
+**WHOIS** — Used to gather publicly available domain registration, registrar, nameserver, and domain-related information. 
 
 <img width="734" height="845" alt="whois 1" src="https://github.com/user-attachments/assets/0f260ce3-f880-4cac-b9c7-ac3553dbfe5f" />
 
  <br/>
  
-whatweb
+**WhatWeb** — Used to fingerprint the web application and identify technologies, server software, frameworks, and other web components.
 
 <img width="940" height="332" alt="whatweb 1" src="https://github.com/user-attachments/assets/b96adfa8-dd7e-44ef-8cc4-0d658415b700" />
 <br/>
 
-wafw00f
+**WAFW00F** — Used to determine whether the target web application was protected by a Web Application Firewall (WAF).
 
 <img width="535" height="360" alt="wafw00f" src="https://github.com/user-attachments/assets/4f0c67ad-b7ba-4b93-8129-3fe7f1e64514" />
  <br/>
  
-curl
+**cURL** — Used to send HTTP requests to the target and inspect the responses returned by the web server.
 
 <img width="967" height="830" alt="curl" src="https://github.com/user-attachments/assets/324ce8b5-7f51-4200-a6e8-e6eac20b3617" />
  <br/>
  
-curl -I
+**cURL `-I`** — Used to retrieve and inspect HTTP response headers without downloading the full page content.
 
 <img width="526" height="170" alt="curl -I" src="https://github.com/user-attachments/assets/1f8306d9-d14f-4907-be5b-e68d04e927bc" />
  <br/>
  
-curl -v
+**cURL `-v`** — Used to view detailed HTTP connection information, including the request, response headers, TLS connection, and redirects.
 
 <img width="889" height="852" alt="curl -v" src="https://github.com/user-attachments/assets/e1feb869-43a5-477e-83df-4d49d50bda19" />
  
@@ -204,7 +212,9 @@ Web content enumeration was subsequently performed using **Dirsearch**.
 The enumeration identified several accessible resources, including an `/old/` directory, which returned a successful HTTP response and required further investigation.
 
 ### Evidence — Directory Enumeration
-dirsearch
+
+**Dirsearch** — Used to enumerate hidden directories and files on the web server, helping identify exposed resources such as the `/old/` directory for further investigation.
+
 <img width="948" height="856" alt="dirsearch" src="https://github.com/user-attachments/assets/3d38b680-2eb3-469f-9405-6dcd16df8597" />
 
 Further investigation of the old resources identified an exposed backup associated with the application.
@@ -228,7 +238,7 @@ The patient-facing application functionality was investigated as part of the sea
 
 <img width="1912" height="918" alt="burpsuite intercept" src="https://github.com/user-attachments/assets/4d4d21c5-520c-48ae-8418-d08ba21e4cd1" />
 
-Sql Injections
+**SQL Injection Testing** — Used to assess whether the application improperly handled user-supplied input in database queries and could potentially allow unauthorized database access.
 
 <img width="615" height="462" alt="sql inj" src="https://github.com/user-attachments/assets/fd0208f3-5e98-4ef0-892e-fc063cfec533" /> <br/>
 
@@ -415,10 +425,13 @@ The assessment confirmed that salary records for **30 hospital employees** were 
 
 <img width="1136" height="523" alt="image" src="https://github.com/user-attachments/assets/37f8f9d6-da58-48ae-9548-97e276f8cebd" />
 
-Suggested filename:
+### Suggested filename:
 
-```text
-Salaries will also be found on the Stakeholders.txt file```
+**cURL `-s`** — Used to send HTTP requests in silent mode, displaying the server response without progress or transfer information for cleaner analysis.
+
+<img width="857" height="146" alt="curl -s" src="https://github.com/user-attachments/assets/9f8f76e4-abd4-40f1-b434-ea437f153985" />
+<br/>
+Salaries will also be found on the Stakeholders.txt file
 
 > ⚠️ National identification numbers, telephone numbers, email addresses and other unnecessary personal information must be redacted from the public evidence.
 
@@ -441,11 +454,9 @@ The assessment identified **10 shareholder records** within the exposed database
 
 <img width="924" height="462" alt="image" src="https://github.com/user-attachments/assets/da499315-9952-4015-8511-1d6713eca34c" />
 
-Suggested filename:
+### Suggested filename:
 
-```text
-Shareholder details will also be found on the Stakeholders.txt file```
-```
+Shareholder details will also be found on the Stakeholders.txt file
 
 ---
 
@@ -553,41 +564,6 @@ Remediation should prioritize the patient-report access-control vulnerability an
 
 ---
 
-# 📁 Evidence Structure
-
-```text
-evidence/
-│
-├── M1-01-nmap-entry-points.png
-├── M1-02-whatweb.png
-├── M1-03-wafw00f.png
-├── M1-04-dirsearch.png
-├── M1-05-old-backup.png
-├── M1-06-burp-intercept.png
-├── M1-07-burp-http-history.png
-├── M1-08-three-patient-reports-redacted.png
-│
-├── M2-01-report-password-prompt.png
-├── M2-02-report1-hash.png
-├── M2-03-report2-hash.png
-├── M2-04-report3-hash.png
-├── M2-05-report1-password-redacted.png
-├── M2-06-report2-password-redacted.png
-├── M2-07-report3-initial-failure.png
-├── M2-08-jtr-version.png
-├── M2-09-jtr-password-recovery.png
-├── M2-10-jtr-completed-redacted.png
-├── M2-11-report1-open-redacted.png
-├── M2-12-report2-open-redacted.png
-├── M2-13-report3-open-redacted.png
-│
-├── M3-01-backup-discovery.png
-├── M3-02-salaries-redacted.png
-└── M3-03-shareholders-redacted.png
-```
-
----
-
 # ⚖️ Ethical Disclaimer
 
 This project was conducted in a controlled environment for educational purposes only.
@@ -597,3 +573,15 @@ The target was authorized for security testing by **Networkwalks**.
 All testing documented in this repository was performed within the authorized scope. These techniques must never be applied to systems without explicit written permission from the owner.
 
 Patient, employee and organisational information should be redacted from all publicly published evidence.
+
+---
+
+# 👤 Author
+Malehloa Seroke
+Cybersecurity Professional B082
+
+LinkedIn: [www.linkedin.com/in/malehloa-seroke]
+
+# 📌 Project Information
+Program Name: Cybersecurity at Networkwalks | Week: 04 | Project: WK4-Penetration Testing Project | Repository: GitHub
+
