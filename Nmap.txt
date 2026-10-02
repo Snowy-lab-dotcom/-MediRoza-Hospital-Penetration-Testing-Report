@@ -1,0 +1,200 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-10-02 18:59 +0200
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 18:59
+Completed NSE at 18:59, 0.00s elapsed
+Initiating NSE at 18:59
+Completed NSE at 18:59, 0.00s elapsed
+Initiating NSE at 18:59
+Completed NSE at 18:59, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 18:59
+Completed Parallel DNS resolution of 1 host. at 18:59, 0.51s elapsed
+Initiating Ping Scan at 18:59
+Scanning medirozahospital.com (199.188.201.16) [4 ports]
+Completed Ping Scan at 18:59, 0.55s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 18:59
+Completed Parallel DNS resolution of 1 host. at 18:59, 0.03s elapsed
+Initiating SYN Stealth Scan at 18:59
+Scanning medirozahospital.com (199.188.201.16) [1000 ports]
+Discovered open port 587/tcp on 199.188.201.16
+Discovered open port 25/tcp on 199.188.201.16
+Discovered open port 21/tcp on 199.188.201.16
+Discovered open port 8080/tcp on 199.188.201.16
+Discovered open port 143/tcp on 199.188.201.16
+Discovered open port 443/tcp on 199.188.201.16
+Discovered open port 993/tcp on 199.188.201.16
+Discovered open port 110/tcp on 199.188.201.16
+Discovered open port 80/tcp on 199.188.201.16
+Discovered open port 53/tcp on 199.188.201.16
+Discovered open port 995/tcp on 199.188.201.16
+Completed SYN Stealth Scan at 18:59, 18.16s elapsed (1000 total ports)
+Initiating Service scan at 18:59
+Scanning 11 services on medirozahospital.com (199.188.201.16)
+Completed Service scan at 19:02, 178.23s elapsed (11 services on 1 host)
+Initiating OS detection (try #1) against medirozahospital.com (199.188.201.16)
+Retrying OS detection (try #2) against medirozahospital.com (199.188.201.16)
+Initiating Traceroute at 19:02
+Completed Traceroute at 19:02, 0.02s elapsed
+NSE: Script scanning 199.188.201.16.
+Initiating NSE at 19:02
+Completed NSE at 19:02, 32.10s elapsed
+Initiating NSE at 19:02
+Completed NSE at 19:07, 285.63s elapsed
+Initiating NSE at 19:07
+Completed NSE at 19:07, 0.01s elapsed
+Nmap scan report for medirozahospital.com (199.188.201.16)
+Host is up (0.0054s latency).
+rDNS record for 199.188.201.16: server274-1.web-hosting.com
+Not shown: 989 filtered tcp ports (no-response)
+PORT     STATE SERVICE        VERSION
+21/tcp   open  ftp            Pure-FTPd
+25/tcp   open  smtp?
+|_smtp-commands: Couldn't establish connection on port 25
+53/tcp   open  domain         (unknown banner: BIND)
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     version
+|     bind
+|_    BIND
+80/tcp   open  http-proxy     HAProxy http proxy 2.0.0 or later
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to https://medirozahospital.com/
+|_http-server-header: openresty/1.31.1.1
+110/tcp  open  pop3           Dovecot pop3d
+|_pop3-capabilities: USER AUTH-RESP-CODE UIDL TOP RESP-CODES SASL(PLAIN LOGIN) STLS CAPA PIPELINING
+143/tcp  open  imap           Dovecot imapd
+|_imap-capabilities: have LITERAL+ IMAP4rev1 ENABLE capabilities ID post-login OK AUTH=LOGINA0001 STARTTLS listed more LOGIN-REFERRALS SASL-IR IDLE Pre-login AUTH=PLAIN
+443/tcp  open  ssl/http-proxy HAProxy http proxy 2.0.0 or later
+| http-methods: 
+|_  Supported Methods: GET OPTIONS
+|_http-title:  403 Forbidden
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: openresty/1.31.1.1
+| tls-alpn: 
+|   h2
+|   http/1.1
+|   http/1.0
+|_  http/0.9
+| ssl-cert: Subject: commonName=medirozahospital.com
+| Subject Alternative Name: DNS:medirozahospital.com, DNS:www.medirozahospital.com
+| Issuer: commonName=SSL.com TLS Issuing RSA CA R1/organizationName=SSL Corporation/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-08-14T20:59:46
+| Not valid after:  2027-02-28T21:05:45
+| MD5:     67bc c8a4 8bd7 e4e0 b4b5 213c c67c 1ad7
+| SHA-1:   951d c57d 93fd cf5c 8540 6d58 b8d5 248a c6e0 261b
+|_SHA-256: 2dc4 b813 7245 9ebc 4825 7c2c 7ada 1a2b bbc0 76bd 43cc ec30 7c20 fdc7 82b5 abaf
+587/tcp  open  smtp           Exim smtpd 4.100.1
+| smtp-commands: server274.web-hosting.com Hello vc-gp-n-105-245-24-145.umts.vodacom.co.za [105.245.24.145], SIZE 52428800, LIMITS MAILMAX=1000 RCPTMAX=100, 8BITMIME, PIPELINING, PIPECONNECT, STARTTLS, HELP
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP
+993/tcp  open  ssl/imap       Dovecot imapd
+|_imap-capabilities: have post-login OK LITERAL+ ID listed ENABLE IMAP4rev1 AUTH=LOGINA0001 Pre-login more LOGIN-REFERRALS SASL-IR IDLE capabilities AUTH=PLAIN
+995/tcp  open  ssl/pop3       Dovecot pop3d
+8080/tcp open  http-proxy     openresty/1.31.1.1
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Connection timed out
+|_http-server-header: openresty/1.31.1.1
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 403 Forbidden
+|     content-length: 93
+|     cache-control: no-cache
+|     content-type: text/html
+|     Date: Fri, 02 Oct 2026 16:59:35 GMT
+|     <html><body><h1>403 Forbidden</h1>
+|     Request forbidden by administrative rules.
+|     </body></html>
+|   GenericLines, RTSPRequest, Socks4, Socks5: 
+|     <HEAD><TITLE>Tunnel Connection Failed</TITLE></HEAD>
+|     <BODY BGCOLOR="white" FGCOLOR="black">
+|     <FONT FACE="Helvetica,Arial"><B>
+|     Tunnel Connection Failed</B></FONT>
+|     <!-- default "Tunnel Connection Failed" response (502) -->
+|     </BODY>
+|   GetRequest: 
+|     HTTP/1.0 403 Forbidden
+|     content-length: 93
+|     cache-control: no-cache
+|     content-type: text/html
+|     Date: Fri, 02 Oct 2026 16:59:30 GMT
+|     <html><body><h1>403 Forbidden</h1>
+|     Request forbidden by administrative rules.
+|     </body></html>
+|   HTTPOptions: 
+|     HTTP/1.0 403 Forbidden
+|     content-length: 93
+|     cache-control: no-cache
+|     content-type: text/html
+|     Date: Fri, 02 Oct 2026 16:59:31 GMT
+|     <html><body><h1>403 Forbidden</h1>
+|     Request forbidden by administrative rules.
+|_    </body></html>
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port53-TCP:V=7.99%I=7%D=10/2%Time=6ABFE2F7%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReqTCP,3F,"\0=\0\x06\x85\0\0\x01\0\x01\0\x01\0\0\x07version\x
+SF:04bind\0\0\x10\0\x03\xc0\x0c\0\x10\0\x03\0\0\0\0\0\x05\x04BIND\xc0\x0c\
+SF:0\x02\0\x03\0\0\0\0\0\x02\xc0\x0c");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.99%I=7%D=10/2%Time=6ABFE2F2%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,E2,"HTTP/1\.0\x20403\x20Forbidden\r\ncontent-length:\x2093\r\n
+SF:cache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\nDate:\x20Fr
+SF:i,\x2002\x20Oct\x202026\x2016:59:30\x20GMT\r\n\r\n<html><body><h1>403\x
+SF:20Forbidden</h1>\nRequest\x20forbidden\x20by\x20administrative\x20rules
+SF:\.\n</body></html>\n")%r(HTTPOptions,E2,"HTTP/1\.0\x20403\x20Forbidden\
+SF:r\ncontent-length:\x2093\r\ncache-control:\x20no-cache\r\ncontent-type:
+SF:\x20text/html\r\nDate:\x20Fri,\x2002\x20Oct\x202026\x2016:59:31\x20GMT\
+SF:r\n\r\n<html><body><h1>403\x20Forbidden</h1>\nRequest\x20forbidden\x20b
+SF:y\x20administrative\x20rules\.\n</body></html>\n")%r(RTSPRequest,E7,"<H
+SF:EAD><TITLE>Tunnel\x20Connection\x20Failed</TITLE></HEAD>\n<BODY\x20BGCO
+SF:LOR=\"white\"\x20FGCOLOR=\"black\">\n<FONT\x20FACE=\"Helvetica,Arial\">
+SF:<B>\n\x20Tunnel\x20Connection\x20Failed</B></FONT>\n\n<!--\x20default\x
+SF:20\"Tunnel\x20Connection\x20Failed\"\x20response\x20\(502\)\x20-->\n</B
+SF:ODY>\n\0")%r(FourOhFourRequest,E2,"HTTP/1\.0\x20403\x20Forbidden\r\ncon
+SF:tent-length:\x2093\r\ncache-control:\x20no-cache\r\ncontent-type:\x20te
+SF:xt/html\r\nDate:\x20Fri,\x2002\x20Oct\x202026\x2016:59:35\x20GMT\r\n\r\
+SF:n<html><body><h1>403\x20Forbidden</h1>\nRequest\x20forbidden\x20by\x20a
+SF:dministrative\x20rules\.\n</body></html>\n")%r(Socks5,E7,"<HEAD><TITLE>
+SF:Tunnel\x20Connection\x20Failed</TITLE></HEAD>\n<BODY\x20BGCOLOR=\"white
+SF:\"\x20FGCOLOR=\"black\">\n<FONT\x20FACE=\"Helvetica,Arial\"><B>\n\x20Tu
+SF:nnel\x20Connection\x20Failed</B></FONT>\n\n<!--\x20default\x20\"Tunnel\
+SF:x20Connection\x20Failed\"\x20response\x20\(502\)\x20-->\n</BODY>\n\0")%
+SF:r(Socks4,E7,"<HEAD><TITLE>Tunnel\x20Connection\x20Failed</TITLE></HEAD>
+SF:\n<BODY\x20BGCOLOR=\"white\"\x20FGCOLOR=\"black\">\n<FONT\x20FACE=\"Hel
+SF:vetica,Arial\"><B>\n\x20Tunnel\x20Connection\x20Failed</B></FONT>\n\n<!
+SF:--\x20default\x20\"Tunnel\x20Connection\x20Failed\"\x20response\x20\(50
+SF:2\)\x20-->\n</BODY>\n\0")%r(GenericLines,E7,"<HEAD><TITLE>Tunnel\x20Con
+SF:nection\x20Failed</TITLE></HEAD>\n<BODY\x20BGCOLOR=\"white\"\x20FGCOLOR
+SF:=\"black\">\n<FONT\x20FACE=\"Helvetica,Arial\"><B>\n\x20Tunnel\x20Conne
+SF:ction\x20Failed</B></FONT>\n\n<!--\x20default\x20\"Tunnel\x20Connection
+SF:\x20Failed\"\x20response\x20\(502\)\x20-->\n</BODY>\n\0");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: VoIP phone|bridge|webcam|specialized|general purpose|firewall
+Running (JUST GUESSING): Grandstream embedded (92%), Oracle Virtualbox (90%), lwIP 2.X|1.4.X (90%), Garmin embedded (89%), 2N embedded (88%), Intelbras embedded (86%), FireBrick embedded (85%)
+OS CPE: cpe:/h:grandstream:gxp1105 cpe:/a:oracle:vm_virtualbox cpe:/a:lwip_project:lwip cpe:/h:garmin:virb_elite cpe:/h:2n:helios cpe:/a:lwip_project:lwip:2 cpe:/h:firebrick:fb2700 cpe:/a:lwip_project:lwip:1.4.0
+Aggressive OS guesses: Grandstream GXP1105 VoIP phone (92%), Oracle Virtualbox lwIP NAT bridge (90%), Garmin Virb Elite action camera (89%), 2N Helios IP VoIP doorbell (88%), Intelbras VIP 3220 camera (86%), lwIP 2.1.0 - 2.2.0 (86%), lwIP 1.4.1 - 2.0.3 (86%), FireBrick FB2700 firewall (85%), lwIP 1.4.0 or earlier (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=93 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: server274.web-hosting.com; Device: load balancer
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.30 ms server274-1.web-hosting.com (199.188.201.16)
+
+NSE: Script Post-scanning.
+Initiating NSE at 19:07
+Completed NSE at 19:07, 0.00s elapsed
+Initiating NSE at 19:07
+Completed NSE at 19:07, 0.00s elapsed
+Initiating NSE at 19:07
+Completed NSE at 19:07, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 520.67 seconds
+           Raw packets sent: 2080 (95.992KB) | Rcvd: 76 (4.076KB)

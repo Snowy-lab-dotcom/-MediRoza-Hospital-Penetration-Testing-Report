@@ -1,0 +1,212 @@
+# Dirsearch started Fri Oct  2 20:55:02 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u https://medirozahospital.com/
+
+403     1KB  https://medirozahospital.com/.c9/metadata/environment/.env
+403     1KB  https://medirozahospital.com/.docker/.env
+403     1KB  https://medirozahospital.com/.docker/laravel/app/.env
+403     1KB  https://medirozahospital.com/.env
+403     1KB  https://medirozahospital.com/.env-example
+403     1KB  https://medirozahospital.com/.env-sample
+403     1KB  https://medirozahospital.com/.env.backup
+403     1KB  https://medirozahospital.com/.env.dev
+403     1KB  https://medirozahospital.com/.env.dev.local
+403     1KB  https://medirozahospital.com/.env.development.local
+403     1KB  https://medirozahospital.com/.env.development.sample
+403     1KB  https://medirozahospital.com/.env.dist
+403     1KB  https://medirozahospital.com/.env.docker
+403     1KB  https://medirozahospital.com/.env.docker.dev
+403     1KB  https://medirozahospital.com/.env.php
+403     1KB  https://medirozahospital.com/.env.prod.local
+403     1KB  https://medirozahospital.com/.env.example
+403     1KB  https://medirozahospital.com/.env.production.local
+403     1KB  https://medirozahospital.com/.env.local
+403     1KB  https://medirozahospital.com/.env.production
+403     1KB  https://medirozahospital.com/.env.sample
+403     1KB  https://medirozahospital.com/.env.sample.php
+403     1KB  https://medirozahospital.com/.env.save
+403     1KB  https://medirozahospital.com/.env.prod
+403     1KB  https://medirozahospital.com/.env.stage
+403     1KB  https://medirozahospital.com/.env.test
+403     1KB  https://medirozahospital.com/.env.test.local
+403     1KB  https://medirozahospital.com/.env.test.sample
+403     1KB  https://medirozahospital.com/.environment
+403     1KB  https://medirozahospital.com/.envrc
+403     1KB  https://medirozahospital.com/.env.travis
+403     1KB  https://medirozahospital.com/.env~
+403     1KB  https://medirozahospital.com/.envs
+403     1KB  https://medirozahospital.com/.git
+403     1KB  https://medirozahospital.com/.git/
+403     1KB  https://medirozahospital.com/.git/branches/
+403     1KB  https://medirozahospital.com/.git/COMMIT_EDITMSG
+403     1KB  https://medirozahospital.com/.git/config
+403     1KB  https://medirozahospital.com/.git/description
+403     1KB  https://medirozahospital.com/.git/FETCH_HEAD
+403     1KB  https://medirozahospital.com/.git/HEAD
+403     1KB  https://medirozahospital.com/.git/head
+403     1KB  https://medirozahospital.com/.git/hooks/
+403     1KB  https://medirozahospital.com/.git/hooks/post-update
+403     1KB  https://medirozahospital.com/.git/hooks/pre-applypatch
+403     1KB  https://medirozahospital.com/.git/hooks/commit-msg
+403     1KB  https://medirozahospital.com/.git/hooks/applypatch-msg
+403     1KB  https://medirozahospital.com/.git/hooks/pre-commit
+403     1KB  https://medirozahospital.com/.git/hooks/pre-rebase
+403     1KB  https://medirozahospital.com/.git/hooks/pre-receive
+403     1KB  https://medirozahospital.com/.git/hooks/pre-push
+403     1KB  https://medirozahospital.com/.git/hooks/update
+403     1KB  https://medirozahospital.com/.git/index
+403     1KB  https://medirozahospital.com/.git/info/attributes
+403     1KB  https://medirozahospital.com/.git/info/exclude
+403     1KB  https://medirozahospital.com/.git/logs/HEAD
+403     1KB  https://medirozahospital.com/.git/logs/
+403     1KB  https://medirozahospital.com/.git/info/refs
+403     1KB  https://medirozahospital.com/.git/info/
+403     1KB  https://medirozahospital.com/.git/hooks/prepare-commit-msg
+403     1KB  https://medirozahospital.com/.git/logs/head
+403     1KB  https://medirozahospital.com/.git/logs/refs
+403     1KB  https://medirozahospital.com/.git/logs/refs/heads
+403     1KB  https://medirozahospital.com/.git/logs/refs/heads/master
+403     1KB  https://medirozahospital.com/.git/logs/refs/remotes
+403     1KB  https://medirozahospital.com/.git/logs/refs/remotes/origin
+403     1KB  https://medirozahospital.com/.git/logs/refs/remotes/origin/HEAD
+403     1KB  https://medirozahospital.com/.git/objects/
+403     1KB  https://medirozahospital.com/.git/logs/refs/remotes/origin/master
+403     1KB  https://medirozahospital.com/.git/objects/info/packs
+403     1KB  https://medirozahospital.com/.git/packed-refs
+403     1KB  https://medirozahospital.com/.git/refs/
+403     1KB  https://medirozahospital.com/.git/refs/heads
+403     1KB  https://medirozahospital.com/.git/refs/heads/master
+403     1KB  https://medirozahospital.com/.git/refs/remotes/origin
+403     1KB  https://medirozahospital.com/.git/refs/remotes/origin/master
+403     1KB  https://medirozahospital.com/.git/refs/remotes/origin/HEAD
+403     1KB  https://medirozahospital.com/.git/refs/tags
+403     1KB  https://medirozahospital.com/.git/refs/remotes
+403     1KB  https://medirozahospital.com/.gitlab-ci/.env
+403     1KB  https://medirozahospital.com/.hg
+403     1KB  https://medirozahospital.com/.hg/hgrc
+403     1KB  https://medirozahospital.com/.hg/dirstate
+403     1KB  https://medirozahospital.com/.hg/branch
+403     1KB  https://medirozahospital.com/.hg/requires
+403     1KB  https://medirozahospital.com/.hg/store/data/
+403     1KB  https://medirozahospital.com/.hg/store/undo
+403     1KB  https://medirozahospital.com/.hg/
+403     1KB  https://medirozahospital.com/.hg/undo.dirstate
+403     1KB  https://medirozahospital.com/.hg_archival.txt
+403     1KB  https://medirozahospital.com/.hgsigs
+403     1KB  https://medirozahospital.com/.hgrc
+403     1KB  https://medirozahospital.com/.hgignore
+403     1KB  https://medirozahospital.com/.hgignore.global
+403     1KB  https://medirozahospital.com/.hgsub
+403     1KB  https://medirozahospital.com/.hgtags
+403     1KB  https://medirozahospital.com/.hgsubstate
+403     1KB  https://medirozahospital.com/.htaccess.sample
+403     1KB  https://medirozahospital.com/.htaccess.orig
+403     1KB  https://medirozahospital.com/.htaccess_orig
+403     1KB  https://medirozahospital.com/.htaccess_extra
+403     1KB  https://medirozahospital.com/.htaccess.bak1
+403     1KB  https://medirozahospital.com/.htaccess_sc
+403     1KB  https://medirozahospital.com/.htaccess.save
+403     1KB  https://medirozahospital.com/.htaccessOLD2
+403     1KB  https://medirozahospital.com/.htaccessOLD
+403     1KB  https://medirozahospital.com/.htaccessBAK
+403     1KB  https://medirozahospital.com/.htpasswd_test
+403     1KB  https://medirozahospital.com/.htpasswds
+403     1KB  https://medirozahospital.com/.svn
+403     1KB  https://medirozahospital.com/.svn/text
+403     1KB  https://medirozahospital.com/.svn/all-wcprops
+403     1KB  https://medirozahospital.com/.svn/wc.db
+403     1KB  https://medirozahospital.com/.svn/entries
+403     1KB  https://medirozahospital.com/.svn/text-base/index.php.svn-base
+403     1KB  https://medirozahospital.com/.svn/text-base/
+403     1KB  https://medirozahospital.com/.svn/
+403     1KB  https://medirozahospital.com/.svn/prop
+403     1KB  https://medirozahospital.com/.vscode/.env
+200     1KB  https://medirozahospital.com/about.html
+403     1KB  https://medirozahospital.com/cgi-bin/
+301   795B   https://medirozahospital.com/cgi-bin    -> REDIRECTS TO: https://medirozahospital.com/cgi-bin/
+301   795B   https://medirozahospital.com/cgi-sys    -> REDIRECTS TO: https://medirozahospital.com/cgi-sys/
+403     1KB  https://medirozahospital.com/cgi-sys/
+200   847B   https://medirozahospital.com/contact.html
+200    34KB  https://medirozahospital.com/controlpanel
+200    34KB  https://medirozahospital.com/controlpanel/
+200    34KB  https://medirozahospital.com/cpanel
+200    34KB  https://medirozahospital.com/cpanel/
+200    34KB  https://medirozahospital.com/kpanel/
+403     1KB  https://medirozahospital.com/mailer/.env
+301   795B   https://medirozahospital.com/mailman    -> REDIRECTS TO: https://medirozahospital.com/mailman/
+403     1KB  https://medirozahospital.com/mailman/
+200     2KB  https://medirozahospital.com/mailman/listinfo
+301   795B   https://medirozahospital.com/old    -> REDIRECTS TO: https://medirozahospital.com/old/
+200   624B   https://medirozahospital.com/old/
+301   795B   https://medirozahospital.com/pipermail    -> REDIRECTS TO: https://medirozahospital.com/pipermail/
+200   132B   https://medirozahospital.com/robots.txt
+403    93B   https://medirozahospital.com/server-status
+403    93B   https://medirozahospital.com/server-status/
+200   142B   https://medirozahospital.com/sitemap.xml
+301   795B   https://medirozahospital.com/staff    -> REDIRECTS TO: https://medirozahospital.com/staff/
+200   615B   https://medirozahospital.com/staff/
+403     1KB  https://medirozahospital.com/twitter/.env
+200    34KB  https://medirozahospital.com/webmail
+200    34KB  https://medirozahospital.com/webmail/src/configtest.php
+200   745B   https://medirozahospital.com/wp-admin
+200   745B   https://medirozahospital.com/wp-admin/
+200   745B   https://medirozahospital.com/wp-admin/admin-ajax.php
+200   745B   https://medirozahospital.com/wp-admin/install.php
+200   745B   https://medirozahospital.com/wp-admin/setup-config.php
+200   745B   https://medirozahospital.com/wp-login.php
+403    93B   https://medirozahospital.com/xmlrpc.php
+301   795B   https://medirozahospital.com/~admin    -> REDIRECTS TO: https://medirozahospital.com/~admin/
+301   795B   https://medirozahospital.com/~adm    -> REDIRECTS TO: https://medirozahospital.com/~adm/
+301   795B   https://medirozahospital.com/~anonymous    -> REDIRECTS TO: https://medirozahospital.com/~anonymous/
+301   795B   https://medirozahospital.com/~administrator    -> REDIRECTS TO: https://medirozahospital.com/~administrator/
+301   795B   https://medirozahospital.com/~apache    -> REDIRECTS TO: https://medirozahospital.com/~apache/
+301   795B   https://medirozahospital.com/~db    -> REDIRECTS TO: https://medirozahospital.com/~db/
+301   795B   https://medirozahospital.com/~games    -> REDIRECTS TO: https://medirozahospital.com/~games/
+301   795B   https://medirozahospital.com/~backup    -> REDIRECTS TO: https://medirozahospital.com/~backup/
+301   795B   https://medirozahospital.com/~database    -> REDIRECTS TO: https://medirozahospital.com/~database/
+301   795B   https://medirozahospital.com/~gopher    -> REDIRECTS TO: https://medirozahospital.com/~gopher/
+301   795B   https://medirozahospital.com/~fw    -> REDIRECTS TO: https://medirozahospital.com/~fw/
+301   795B   https://medirozahospital.com/~firewall    -> REDIRECTS TO: https://medirozahospital.com/~firewall/
+301   795B   https://medirozahospital.com/~help    -> REDIRECTS TO: https://medirozahospital.com/~help/
+301   795B   https://medirozahospital.com/~fwadmin    -> REDIRECTS TO: https://medirozahospital.com/~fwadmin/
+301   795B   https://medirozahospital.com/~data    -> REDIRECTS TO: https://medirozahospital.com/~data/
+301   795B   https://medirozahospital.com/~halt    -> REDIRECTS TO: https://medirozahospital.com/~halt/
+301   795B   https://medirozahospital.com/~fwuser    -> REDIRECTS TO: https://medirozahospital.com/~fwuser/
+301   795B   https://medirozahospital.com/~bin    -> REDIRECTS TO: https://medirozahospital.com/~bin/
+301   795B   https://medirozahospital.com/~guest    -> REDIRECTS TO: https://medirozahospital.com/~guest/
+301   795B   https://medirozahospital.com/~ftp    -> REDIRECTS TO: https://medirozahospital.com/~ftp/
+301   795B   https://medirozahospital.com/~helpdesk    -> REDIRECTS TO: https://medirozahospital.com/~helpdesk/
+301   795B   https://medirozahospital.com/~gdm    -> REDIRECTS TO: https://medirozahospital.com/~gdm/
+301   795B   https://medirozahospital.com/~ident    -> REDIRECTS TO: https://medirozahospital.com/~ident/
+301   795B   https://medirozahospital.com/~daemon    -> REDIRECTS TO: https://medirozahospital.com/~daemon/
+301   795B   https://medirozahospital.com/~lp    -> REDIRECTS TO: https://medirozahospital.com/~lp/
+301   795B   https://medirozahospital.com/~mail    -> REDIRECTS TO: https://medirozahospital.com/~mail/
+301   795B   https://medirozahospital.com/~http    -> REDIRECTS TO: https://medirozahospital.com/~http/
+301   795B   https://medirozahospital.com/~nobody    -> REDIRECTS TO: https://medirozahospital.com/~nobody/
+301   795B   https://medirozahospital.com/~mailnull    -> REDIRECTS TO: https://medirozahospital.com/~mailnull/
+301   795B   https://medirozahospital.com/~news    -> REDIRECTS TO: https://medirozahospital.com/~news/
+301   795B   https://medirozahospital.com/~nscd    -> REDIRECTS TO: https://medirozahospital.com/~nscd/
+301   795B   https://medirozahospital.com/~pop    -> REDIRECTS TO: https://medirozahospital.com/~pop/
+301   795B   https://medirozahospital.com/~office    -> REDIRECTS TO: https://medirozahospital.com/~office/
+301   795B   https://medirozahospital.com/~operator    -> REDIRECTS TO: https://medirozahospital.com/~operator/
+301   795B   https://medirozahospital.com/~postmaster    -> REDIRECTS TO: https://medirozahospital.com/~postmaster/
+301   795B   https://medirozahospital.com/~shutdown    -> REDIRECTS TO: https://medirozahospital.com/~shutdown/
+301   795B   https://medirozahospital.com/~rpc    -> REDIRECTS TO: https://medirozahospital.com/~rpc/
+301   795B   https://medirozahospital.com/~root    -> REDIRECTS TO: https://medirozahospital.com/~root/
+301   795B   https://medirozahospital.com/~sync    -> REDIRECTS TO: https://medirozahospital.com/~sync/
+301   795B   https://medirozahospital.com/~test    -> REDIRECTS TO: https://medirozahospital.com/~test/
+301   795B   https://medirozahospital.com/~staff    -> REDIRECTS TO: https://medirozahospital.com/~staff/
+301   795B   https://medirozahospital.com/~testuser    -> REDIRECTS TO: https://medirozahospital.com/~testuser/
+301   795B   https://medirozahospital.com/~system    -> REDIRECTS TO: https://medirozahospital.com/~system/
+301   795B   https://medirozahospital.com/~rpcuser    -> REDIRECTS TO: https://medirozahospital.com/~rpcuser/
+301   795B   https://medirozahospital.com/~reception    -> REDIRECTS TO: https://medirozahospital.com/~reception/
+301   795B   https://medirozahospital.com/~user1    -> REDIRECTS TO: https://medirozahospital.com/~user1/
+301   795B   https://medirozahospital.com/~sql    -> REDIRECTS TO: https://medirozahospital.com/~sql/
+301   795B   https://medirozahospital.com/~user    -> REDIRECTS TO: https://medirozahospital.com/~user/
+301   795B   https://medirozahospital.com/~toor    -> REDIRECTS TO: https://medirozahospital.com/~toor/
+301   795B   https://medirozahospital.com/~user4    -> REDIRECTS TO: https://medirozahospital.com/~user4/
+301   795B   https://medirozahospital.com/~user2    -> REDIRECTS TO: https://medirozahospital.com/~user2/
+301   795B   https://medirozahospital.com/~www    -> REDIRECTS TO: https://medirozahospital.com/~www/
+301   795B   https://medirozahospital.com/~user3    -> REDIRECTS TO: https://medirozahospital.com/~user3/
+301   795B   https://medirozahospital.com/~user5    -> REDIRECTS TO: https://medirozahospital.com/~user5/
+301   795B   https://medirozahospital.com/~web    -> REDIRECTS TO: https://medirozahospital.com/~web/
+301   795B   https://medirozahospital.com/~uucp    -> REDIRECTS TO: https://medirozahospital.com/~uucp/
+301   795B   https://medirozahospital.com/~xfs    -> REDIRECTS TO: https://medirozahospital.com/~xfs/
